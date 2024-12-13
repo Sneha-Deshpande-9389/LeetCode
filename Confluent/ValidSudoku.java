@@ -1,7 +1,13 @@
-package LeetCode;
+package Confluent;
 
 import java.util.HashSet;
 
+/*
+Coding round: Given a filled sudoku board, validate if the board is solved or not
+sew [optimize the number of traversals through the board - attempt at solving in 1 traversal] - Add test cases and make sure it runs and passes.
+As an extension, given an unsolved board how do you solve it
+(backtracking with recursion - did not have to implement this)
+ */
 public class ValidSudoku {
     public static void main(String[] args) {
         System.out.println(validSudoku(new char[][] {
@@ -52,3 +58,18 @@ public class ValidSudoku {
         return true;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

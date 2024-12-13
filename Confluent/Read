@@ -1,0 +1,42 @@
+discussion on micro-operations.
+difference between O(n), Theta(n) and Omega(n)
+Difference between IPv4 and IPv6.
+What is a MAC address?
+Reduce fraction to simplest terms
+What is the difference between a thread and a process?
+
+Design-
+two-factor auth service
+tinurl-uniqueId generation focus
+was this something related to dealing with files content at byte level? or more like designing an in-memory file system
+ with a trie data structure?
+
+-----------
+https://leetcode.com/discuss/interview-question/5702627/Confluent-Interview
+I had 3 rounds:
+
+
+1st round - Problem similar to LRU cache
+2nd round was DSA (a backtracking question was given)
+3rd round - A LLD kind question where had to design a data structure to process some queries
+
+
+Expectation was to give running code in all 3 rounds
+
+
+------------
+https://leetcode.com/discuss/interview-question/4188001/Confluent-or-SeniorStaff-Software-Engineer-Experience
+Design round 1(API design) - Spotify like system. Design APIs to retrieve X podcast channels at a time,
+X audio clips per podcast channel, Database design and high level component design [pagination, skip tokens, limit/offset, api versioning, back of the napkin calculation for number of users to number of podcast channels, podcast channel to number of audio clips per channel, corner cases[users subscribed to a lot of channels, channels with a lot of videos, etc.,]]
+
+------------
+https://leetcode.com/discuss/interview-question/3878652/Design-key-value-store-or-Confluent-or-SSE-2
+Design a high throughput, low latency, fault-tolerant
+persistent
+ key-value store.
+Runs as a network service supporting many clients in a data center.
+Uses the standard key-value store operations: get, put, delete.
+Keys and values are simple byte[].
+Assume high write throughput.
+This doesn't necessarily mean requests are skewed significantly towards writes,
+just that we want as much write throughput as possible on a single node.
